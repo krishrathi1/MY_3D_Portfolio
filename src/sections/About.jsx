@@ -72,8 +72,12 @@ const About = () => {
     name="Contact Me"
     isBeam
     containerClass="w-full mt-10"
-    onClick={() => window.open('https://www.linkedin.com/in/krish-rathi-036222293/', '_blank')}
-  />
+    onClick={() => window.open('https://www.linkedin.com/in/krish-rathi-036222293/', '_blank')}/>
+    <Button
+    name = "Download Resume"
+    isBeam
+    containerClass="w-full mt-10"
+    onClick={() => window.open('https://drive.google.com/uc?export=download&id=1lCjYdo4LRQA-vZim_Nt9_b4Xc6L5zoFX')}/>
 </div>
 
           </div>
